@@ -63,7 +63,7 @@ function CaseCards() {
 
       <div className="cardsGrid">
         {/* infected - total cases */}
-        <div className="card">
+        <div style={{backgroundColor:"#ff9a9a"}} className="card">
           <p className="titleInfo">Infected</p>
           <p className="countInfo">{activeItems.totalCases}</p>
           <p className="dateInfo">Last updated at: {lastUpdated}</p>
@@ -72,7 +72,7 @@ function CaseCards() {
         </div>
 
         {/* recovered */}
-        <div className="card">
+        <div  style={{backgroundColor:"#00ff76"}} className="card">
           <p className="titleInfo">Recovered</p>
           <p className="countInfo">{activeItems.totalRecovered}</p>
           <p className="dateInfo">Last updated at: {lastUpdated}</p>
@@ -81,7 +81,7 @@ function CaseCards() {
         </div>
 
         {/* deaths */}
-        <div className="card">
+        <div style={{backgroundColor:"#ff0000"}} className="card">
           <p className="titleInfo">Deaths</p>
           <p className="countInfo">{activeItems.totalDeaths}</p>
           <p className="dateInfo">Last updated at: {lastUpdated}</p>
@@ -90,7 +90,7 @@ function CaseCards() {
         </div>
 
         {/* active cases - positive cases */}
-        <div className="card">
+        <div style={{backgroundColor:"#f560ff"}} className="card">
           <p className="titleInfo">Active</p>
           <p className="countInfo">{activeItems.totalCases}</p>
           <p className="dateInfo">Last updated at: {lastUpdated}</p>
