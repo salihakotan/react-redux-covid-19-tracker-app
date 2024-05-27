@@ -3,7 +3,7 @@ import covidSlice from "./covidSlice";
 
 export const store = configureStore({
     reducer : {
-        covid:covidSlice
-    }
+        covid:covidSlice,
+        }
 })
 
